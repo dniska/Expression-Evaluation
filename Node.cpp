@@ -3,6 +3,7 @@ Node<ItemType>::Node()
   : next(nullptr) {
 }
 
+
 template <typename ItemType>
 Node<ItemType>::Node(const ItemType& anItem)
   : item(anItem),
